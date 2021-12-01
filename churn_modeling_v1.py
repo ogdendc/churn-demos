@@ -69,6 +69,7 @@ print(f"Database Name: {database_name}")
 # COMMAND ----------
 
 # Let's set the default database name so we don't have to specify it on every query
+# random comment to test out Git push
 
 spark.sql(f"USE {database_name}")
 
